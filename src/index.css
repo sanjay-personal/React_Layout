@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.book-inline {
+  border: 2px solid black;
+  width: 200px;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.book-img {
+  display: flex;
+  justify-content: center;
+}
+
+.book-price-rating  {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.book-outline {
+  /* display: grid; */
+  /* gap: 5px; */
+  /* grid-template-columns: auto auto auto auto; */
+  justify-content: space-between;
+}
+
+.heightView {
+  height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  
+}
+
+.main {
+  flex: 1;
+  margin: 10px;
+}
